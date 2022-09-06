@@ -55,7 +55,7 @@
         height: 0;
         visibility: hidden;
     }
-}   
+}
 @media screen and (max-width: 480px) {
 /* 480pxまでの幅の場合に適用される */
     body {
@@ -138,7 +138,13 @@
 .content {
     float: none;
     width: 150px;
-    height: 450px;
+    height: 350px;
+}
+.content-top-right {
+    float: none;
+    width: 150px;
+    height: 100px;
+    background: #ff9e6b;
 }
 .content-top-left {
     float: none;
@@ -151,12 +157,6 @@
 .content-top-left-bottom {
     height: 100px;
     background: #0093b7;
-}
-.content-top-right {
-    float: none;
-    width: 150px;
-    height: 100px;
-    background: #ff9e6b;
 }
 .content-bottom {
     height: 100px;
